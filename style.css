@@ -1,0 +1,56 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+/* Header */
+
+header {
+    margin: 20px 10px 20px 10px;
+    height: 20px;
+}
+
+header .name {
+    font-family: Montserrat, sans-serif;
+    position: absolute;
+    text-transform: uppercase;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+    position: relative;
+}
+
+li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    font-family: Karla, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+li:hover {
+    color: blue;
+}
+
+/* Section One */
+
+section h1 {
+    margin: auto;
+    width: 600px;
+    font-family: Karla, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+/* Responsive Design 
+
+@media screen and (max-width:650px) {
+    header ul{
+        display: none;
+    }
+}
+
+*/
