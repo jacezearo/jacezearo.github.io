@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    background-color: #e6e6e6;
+}
+
+/* Header */
+
+header {
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+
+.header-bg {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(rgba(255,220,60,1), rgba(255,220,60,0));
+}
+
+.name {
+    margin: 20px 50px;
+    position: absolute;
+    font-family: Karla, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+ul {
+    margin: 20px 50px;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+    position: relative;
+}
+
+li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    font-family: Karla, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: blue;
+    font-weight: 700;
+}
+
+/* Error */
+
+.landing-div {
+    margin: auto;
+    width: 80%;
+}
+
+.error h1 {
+    margin: auto;
+    width: 600px;
+    height: 225px;
+    font-family: Red Rose, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.error p {
+    margin: auto;
+    width: 600px;
+    height: 225px;
+    font-family: Red Rose, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.error a:hover {
+    color: blue;
+}
+
+
+/* Footer */
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #FFFFFF;
+}
+
+.socials-1 {
+    float: left;
+}
+
+.socials-2 {
+    float: right;
+}
+
+/* Responsive Design 
+
+@media screen and (max-width:650px) {
+    header ul{
+        display: none;
+    }
+}
+
+*/
