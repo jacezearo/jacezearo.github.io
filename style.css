@@ -1,5 +1,4 @@
 body {
-    font-family: Helvetica, sans-serif;
     margin: 0;
     background-color: #D6D6D6;
 }
@@ -49,14 +48,100 @@ li:hover {
     font-weight: 700;
 }
 
-/* Section One */
+/* Landing Div */
+
+.landing-div {
+    margin: auto;
+    width: 600px;
+    height: 350px;
+}
 
 .landing-div h1 {
     margin: auto;
-    width: 600px;
     font-family: Red Rose, sans-serif;
     font-size: 60px;
     text-align: center;
+    line-height: 50px;
+}
+
+.landing-div p {
+    margin: auto;
+    padding: 25px 0;
+    width: 300px;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #5C5C5C;
+}
+
+/* Work */
+
+.work {
+    margin: auto;
+    width: 1000px;
+    display: flex;
+}
+
+.design {
+    margin: 0 25px;
+    width: 200px;
+    height: 150px;
+    background-color: #FFDC3C;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+    box-shadow: 20px 20px #000000;
+}
+
+.science {
+    margin: 0 25px;
+    width: 200px;
+    height: 150px;
+    background-color: #F14A41;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+    box-shadow: 20px 20px #000000;
+}
+
+.tech {
+    margin: 0 25px;
+    width: 200px;
+    height: 150px;
+    background-color: #3CC88B;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+    box-shadow: 20px 20px #000000;
+}
+
+.communities {
+    margin: 0 25px;
+    width: 200px;
+    height: 150px;
+    background-color: #2BB4DE;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+    box-shadow: 20px 20px #000000;
+}
+
+.work h2 {
+    margin: auto;
+    padding: 15px;;
+    font-family: Karla, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.work p {
+    margin: auto;
+    padding: 0px 15px;
+    width: 150px;
+    float: left;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 14px;
+    color: ##000000;
 }
 
 /* Responsive Design 
